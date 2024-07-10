@@ -23,8 +23,28 @@
         .container-1{
                 background-color: white;
                 display: flex;
-                flex-direction: row; /*Direção do eixo*/
-                
+                flex-direction: row; /*Direção do eixo principal esquerda para direita*/
+                margin-bottom: 20px;
+        }
+
+        .container-2{
+            background:white;
+            display: flex;
+            flex-direction: row-reverse; /*Direção do eixo principal direita para esquerda*/
+            margin-bottom: 20px;
+        }
+
+        .container-3{
+            background-color: beige;
+            display: flex;
+            flex-direction: column; /*Direção do eixo principal decima para baixo */
+            margin-bottom:20PX ;
+        }
+
+        .container-4{
+            background-color: white;
+            display: flex;
+            flex-direction: column-reverse;/*Direção do eixo principal baixo para cima */
         }
 
         .item{
@@ -48,6 +68,22 @@
 
     <div class="container-2">
         <div class="item"> 1 </div>
+        <div class="item"> 2 </div>
+        <div class="item"> 3 </div>
+        <div class="item"> 4 </div>
+        <div class="item"> 5 </div>
+    </div>
+
+    <div class="container-3">
+        <div class="item">1</div>
+        <div class="item"> 2 </div>
+        <div class="item"> 3 </div>
+        <div class="item"> 4 </div>
+        <div class="item"> 5 </div>
+    </div>
+
+    <div class="container-4">
+        <div class="item">1</div>
         <div class="item"> 2 </div>
         <div class="item"> 3 </div>
         <div class="item"> 4 </div>
