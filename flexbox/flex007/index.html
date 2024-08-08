@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexbox </title>
+    <style>
+        div.container{
+                background-color: lightgray;
+
+                display: flex;
+                height: 60px;
+                flex-direction:row-wrap;
+
+        }
+
+        div.item{
+
+                background-color: gray;
+                border: 1px solid black;
+                color: white;
+                padding:20px;
+                text-align: center;
+
+        }
+
+        div#q1{
+                order: 0;
+        }
+
+        div#q2{
+            order: -1;
+        }
+
+        div#q3{
+            order: 5;
+        }
+
+        div#q4{
+            order: 2;
+        }
+
+        div#q5{
+            order: 1;
+        }
+
+        div#q6{
+            order: 0;
+        }
+
+        div#q7{
+            order: -4;
+        }
+
+        div#q8{
+            order: 10;
+        }
+
+        div#q9{
+            order: 4;
+        }
+
+        div#q10{
+            order: 8;
+        }
+    </style>
+</head>
+<body>
+    <h1> Primeiro exemplo de Flex Box </h1>
+
+    <div class="container">
+        <div class="item" id="q1" > 1 </div>
+        <div class="item" id="q2"> 2 </div>
+        <div class="item" id="q3"> 3 </div>
+        <div class="item" id="q4"> 4 </div>
+        <div class="item" id="q5"> 5 </div>
+        <div class="item" id="q6"> 6 </div>
+        <div class="item" id="q7"> 7 </div>
+        <div class="item" id="q8"> 8 </div>
+        <div class="item" id="q9"> 9 </div>
+        <div class="item" id="q10"> 10 </div>
+    </div>
+</body>
+</html>
